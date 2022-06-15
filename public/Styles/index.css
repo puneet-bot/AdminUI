@@ -1,0 +1,46 @@
+#multiple-del{
+    display: none;
+}
+table,thead,tr,th,td,
+#my-table-head{
+    text-align: center !important;
+}
+.edit-btn{
+    margin-right: 20px !important;
+}
+.highlight-color{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+#heading-hero{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#alert-message{
+    display: none;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1200px) {  
+.edit-btn,.delete-btn{
+    width: 95%;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
+@media only screen and (max-width: 700px) {  
+    .edit-btn,.delete-btn{
+        width: 95%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #example_filter >label{
+        width: 100%;
+    }
+    #example_filter >label>input{
+        width: 80%;
+    }
+}  
